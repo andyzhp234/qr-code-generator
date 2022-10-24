@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@700&display=swap');
+@import 'navbar.css';
+@import 'input_section.css';
+@import 'qr_code_sections.css';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Kanit', sans-serif;
+}
+
+.App{
+  width: 100%;
+  height: 100vh;
+}

@@ -1,0 +1,13 @@
+.display_qr_code{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.display_qr_code button {
+  margin-top: 50px;
+  background-color: lightcoral;
+  color: black;
+}
