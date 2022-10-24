@@ -1,6 +1,7 @@
 import React from 'react';
 import QRCode from 'qrcode';
 import '../css/app.css';
+
 // features:
 // 1: render text
 // 2: render by url
@@ -32,6 +33,11 @@ function App() {
       if (err) throw err
       setSrc(url)
     })
+  }
+
+  function saveQRCode() {
+    var FileSaver = require('file-saver');
+    FileSaver.saveAs(src, "image.jpg");
   }
 
   return (
@@ -135,12 +141,11 @@ function App() {
           null:
           <div className='display_qr_code'>
             <img src={src} alt="qrcode"/>
-            <button className='generate_button'>
+            <button className='generate_button' onClick={saveQRCode}>
               Save
             </button>
           </div>
         }
-
       </form>
     </div>
   );
