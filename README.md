@@ -31,7 +31,10 @@ Live Demo: https://andyzhp234.github.io/qr-code-generator/
 
 ## Screenshots
 
-<img src="" alt=""/>
+<img src="./screen-shots/home.JPG" alt=""/>
+<img src="./screen-shots/text.JPG" alt=""/>
+<img src="./screen-shots/urls1.JPG" alt=""/>
+<img src="./screen-shots/urls2.JPG" alt=""/>
 
 
 ## Tech Stack
