@@ -36,10 +36,10 @@ Live Demo: https://andyzhp234.github.io/qr-code-generator/
 <img src="./screen-shots/urls1.JPG" alt=""/>
 <img src="./screen-shots/urls2.JPG" alt=""/>
 
+## Libraries
+file-saver to save files
 
 ## Tech Stack
 
-**Client:** React.js
-
-**Server:** Node.js
+React.js & Node.js
 
