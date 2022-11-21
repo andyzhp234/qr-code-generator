@@ -41,5 +41,5 @@ file-saver to save files
 
 ## Tech Stack
 
-React.js & Node.js
+React.js
 
