@@ -1,6 +1,6 @@
 
 # QR-Code Generator
-A simple website built with React.js that allows user to convert urls or text message in to QR Code.
+A simple website built with React.js that allows user to convert urls or text message into QR Code.
 
 Users can customize the Black and White modules of the QR Code.
 
